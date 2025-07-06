@@ -1,0 +1,99 @@
+{
+  "id": "23227b43-18d3-44ce-adb0-876659fd8e0e",
+  "version": "2.0",
+  "name": "LOGIN",
+  "url": "https://academy.powerlearnprojectafrica.org",
+  "tests": [{
+    "id": "7efb4b32-cfe1-4a9f-be2e-d2d6635ecbdb",
+    "name": "Untitled",
+    "commands": [{
+      "id": "2b4d389e-98b2-47f3-a318-ee1d21262808",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bcf15196-edfa-4f99-9392-80917530d714",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03215cf5-8c5a-4bcc-9f98-e5290d8243aa",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login",
+      "targets": [
+        ["linkText=Login", "linkText"],
+        ["css=.bg-\\[\\#C52155\\]", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/nav/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/login')]", "xpath:href"],
+        ["xpath=//div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8bbed30-8ac3-4ed9-bc74-359452d173b7",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "morahvalerianne@gmail.com"
+    }, {
+      "id": "17f8b807-6dc9-4687-b5a7-a94c4990caa3",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Valentinophyl2025"
+    }, {
+      "id": "c39199e4-77e6-4dc7-bd45-9b88c93c9671",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.lucide-eye-off",
+      "targets": [
+        ["css=.lucide-eye-off", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb32965f-d1ff-4e88-87da-a9ef9700647e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hover\\3A bg-primary",
+      "targets": [
+        ["css=.hover\\3A bg-primary", "css:finder"],
+        ["xpath=//div[@id='scoped-theme-wrapper']/div[2]/div/div/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Later')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b8e9e94a-0e88-4de4-958f-e86a731ae1a0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7efb4b32-cfe1-4a9f-be2e-d2d6635ecbdb"]
+  }],
+  "urls": ["https://academy.powerlearnprojectafrica.org/"],
+  "plugins": []
+}
